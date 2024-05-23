@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#cover-letter">Cover Letter</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">Hi, I'm [Your Name], a [Your Job Title].</p>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself.</p>
+    </section>
+
+    <section id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="assets/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <p class="card-text">Project 1 Description</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <p>Download my resume: <a href="assets/resume.pdf" download>Download Resume</a></p>
+    </section>
+
+    <section id="cover-letter" class="container">
+        <h2>Cover Letter</h2>
+        <p>Read my cover letter: <a href="assets/cover_letter.pdf" download>Download Cover Letter</a></p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via <a href="mailto:youremail@example.com">email</a>.</p>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
